@@ -38,6 +38,8 @@ public class ProductAddToCart
    {
 	   wait.waitforVisibility(product_search_button);
 	   driver.findElement(product_search_button).click();
+	   System.out.println("Current URL : " + driver.getCurrentUrl());
+	   System.out.println("Page Title : " + driver.getTitle());
 	   log.info("Navigate to Product Page");
 	   
 	   wait.waitforVisibility(product);
