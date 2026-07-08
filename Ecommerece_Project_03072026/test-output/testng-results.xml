@@ -1,77 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="14" failed="1" skipped="3">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-08T09:57:07 IST" name="Suite4" finished-at="2026-07-08T10:02:49 IST" duration-ms="341907">
+  <suite started-at="2026-07-08T12:33:07 IST" name="Suite4" finished-at="2026-07-08T12:34:31 IST" duration-ms="84033">
     <groups>
     </groups>
-    <test started-at="2026-07-08T09:57:07 IST" name="Test4.1(Firefox Execution)" finished-at="2026-07-08T09:59:20 IST" duration-ms="133114">
-      <class name="Testcases.ProductCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:57:52 IST" name="setup" finished-at="2026-07-08T09:58:02 IST" duration-ms="9630" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:58:02 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:58:19 IST" duration-ms="16606" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:58:19 IST" name="teardown" finished-at="2026-07-08T09:58:19 IST" duration-ms="733" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:58:19 IST" name="setup" finished-at="2026-07-08T09:58:30 IST" duration-ms="10118" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:58:30 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:58:31 IST" duration-ms="1571" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@790174f2]" started-at="2026-07-08T09:58:31 IST" name="teardown" finished-at="2026-07-08T09:58:32 IST" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.ProductCart -->
+    <test started-at="2026-07-08T12:33:07 IST" name="Test4.1(Firefox Execution)" finished-at="2026-07-08T12:33:37 IST" duration-ms="29916">
       <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:07 IST" name="setup" finished-at="2026-07-08T09:57:33 IST" duration-ms="25548" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:08 IST" name="setup" finished-at="2026-07-08T12:33:19 IST" duration-ms="11681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:33 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:57:37 IST" duration-ms="3780" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:19 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:33:24 IST" duration-ms="4087" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:37 IST" name="teardown" finished-at="2026-07-08T09:57:38 IST" duration-ms="754" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:24 IST" name="teardown" finished-at="2026-07-08T12:33:24 IST" duration-ms="753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:38 IST" name="setup" finished-at="2026-07-08T09:57:49 IST" duration-ms="11861" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:24 IST" name="setup" finished-at="2026-07-08T12:33:35 IST" duration-ms="10467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:49 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:57:52 IST" duration-ms="2277" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:35 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:33:36 IST" duration-ms="1365" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,197 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@6db66836]" started-at="2026-07-08T09:57:52 IST" name="teardown" finished-at="2026-07-08T09:57:52 IST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@27e0f2f5]" started-at="2026-07-08T12:33:36 IST" name="teardown" finished-at="2026-07-08T12:33:37 IST" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Testcases.LoginTest -->
-      <class name="Testcases.paymentcheck">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:58:32 IST" name="setup" finished-at="2026-07-08T09:58:41 IST" duration-ms="8953" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:58:41 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:59:07 IST" duration-ms="25747" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:59:07 IST" name="teardown" finished-at="2026-07-08T09:59:08 IST" duration-ms="848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:59:08 IST" name="setup" finished-at="2026-07-08T09:59:17 IST" duration-ms="9509" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:59:17 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:59:19 IST" duration-ms="2004" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@42257bdd]" started-at="2026-07-08T09:59:19 IST" name="teardown" finished-at="2026-07-08T09:59:20 IST" duration-ms="717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.paymentcheck -->
     </test> <!-- Test4.1(Firefox Execution) -->
-    <test started-at="2026-07-08T09:59:25 IST" name="Test4.2(Chrome Execution)" finished-at="2026-07-08T10:01:05 IST" duration-ms="99721">
-      <class name="Testcases.ProductCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T09:59:47 IST" name="setup" finished-at="2026-07-08T09:59:55 IST" duration-ms="7887" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T09:59:55 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:00:09 IST" duration-ms="14357" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //input[@id='search_product'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='search_product']"}.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56883}, goog:processID: 25808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56883/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ad69c202d49eafa23c5dabe94c054c98]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@id='search_product'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='search_product']"}.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56883}, goog:processID: 25808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56883/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ad69c202d49eafa23c5dabe94c054c98
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-at Utils.WaitsUtils.waitforVisibility(WaitsUtils.java:27)
-at Pages.ProductAddToCart.product(ProductAddToCart.java:43)
-at Testcases.ProductCart.verifylogin(ProductCart.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T10:00:10 IST" name="teardown" finished-at="2026-07-08T10:00:10 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T10:00:10 IST" name="setup" finished-at="2026-07-08T10:00:16 IST" duration-ms="6356" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T10:00:16 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:00:20 IST" duration-ms="3587" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@13006998]" started-at="2026-07-08T10:00:20 IST" name="teardown" finished-at="2026-07-08T10:00:20 IST" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.ProductCart -->
+    <test started-at="2026-07-08T12:33:42 IST" name="Test4.2(Chrome Execution)" finished-at="2026-07-08T12:34:04 IST" duration-ms="21356">
       <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:25 IST" name="setup" finished-at="2026-07-08T09:59:32 IST" duration-ms="7194" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:33:42 IST" name="setup" finished-at="2026-07-08T12:33:50 IST" duration-ms="7636" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:32 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:59:37 IST" duration-ms="4259" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:33:50 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:33:54 IST" duration-ms="4088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,11 +100,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:37 IST" name="teardown" finished-at="2026-07-08T09:59:37 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:33:54 IST" name="teardown" finished-at="2026-07-08T12:33:54 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:37 IST" name="setup" finished-at="2026-07-08T09:59:43 IST" duration-ms="6385" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:33:54 IST" name="setup" finished-at="2026-07-08T12:34:01 IST" duration-ms="6537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,7 +115,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:43 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T09:59:44 IST" duration-ms="906" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:34:01 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:34:01 IST" duration-ms="537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,271 +131,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@560513ce]" started-at="2026-07-08T09:59:47 IST" name="teardown" finished-at="2026-07-08T09:59:47 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@2d72f75e]" started-at="2026-07-08T12:34:03 IST" name="teardown" finished-at="2026-07-08T12:34:04 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Testcases.LoginTest -->
-      <class name="Testcases.paymentcheck">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:00:20 IST" name="setup" finished-at="2026-07-08T10:00:27 IST" duration-ms="7365" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:00:27 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:00:53 IST" duration-ms="25578" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:00:53 IST" name="teardown" finished-at="2026-07-08T10:00:53 IST" duration-ms="230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:00:53 IST" name="setup" finished-at="2026-07-08T10:01:01 IST" duration-ms="7174" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:01:01 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:01:04 IST" duration-ms="3892" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@37fbe4a8]" started-at="2026-07-08T10:01:05 IST" name="teardown" finished-at="2026-07-08T10:01:05 IST" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.paymentcheck -->
     </test> <!-- Test4.2(Chrome Execution) -->
-    <test started-at="2026-07-08T10:01:10 IST" name="Test4.3(Edge Execution)" finished-at="2026-07-08T10:02:49 IST" duration-ms="98225">
-      <class name="Testcases.ProductCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:01:37 IST" name="setup" finished-at="2026-07-08T10:01:45 IST" duration-ms="7756" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:01:45 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:02:22 IST" duration-ms="37566" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:02:22 IST" name="teardown" finished-at="2026-07-08T10:02:22 IST" duration-ms="229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:02:22 IST" name="setup" finished-at="2026-07-08T10:02:36 IST" duration-ms="13080" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [906e2a1a194f9134afadd4a330d46bfd, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:58925}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 906e2a1a194f9134afadd4a330d46bfd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [906e2a1a194f9134afadd4a330d46bfd, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:58925}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 906e2a1a194f9134afadd4a330d46bfd
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
-at Base_login.Base.setup(Base.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:02:36 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:02:36 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [906e2a1a194f9134afadd4a330d46bfd, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:58925}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 906e2a1a194f9134afadd4a330d46bfd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [906e2a1a194f9134afadd4a330d46bfd, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:58925}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 906e2a1a194f9134afadd4a330d46bfd
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
-at Base_login.Base.setup(Base.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductCart@6d6bc158]" started-at="2026-07-08T10:02:36 IST" name="teardown" finished-at="2026-07-08T10:02:36 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.ProductCart -->
+    <test started-at="2026-07-08T12:34:08 IST" name="Test4.3(Edge Execution)" finished-at="2026-07-08T12:34:31 IST" duration-ms="22773">
       <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:10 IST" name="setup" finished-at="2026-07-08T10:01:19 IST" duration-ms="8728" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:08 IST" name="setup" finished-at="2026-07-08T12:34:15 IST" duration-ms="6890" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -652,7 +150,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:19 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:01:23 IST" duration-ms="3781" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:15 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:34:20 IST" duration-ms="4424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -668,11 +166,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:23 IST" name="teardown" finished-at="2026-07-08T10:01:24 IST" duration-ms="557" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:20 IST" name="teardown" finished-at="2026-07-08T12:34:20 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:24 IST" name="setup" finished-at="2026-07-08T10:01:32 IST" duration-ms="7646" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:20 IST" name="setup" finished-at="2026-07-08T12:34:27 IST" duration-ms="6282" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -683,7 +181,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:32 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:01:35 IST" duration-ms="3782" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:27 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T12:34:31 IST" duration-ms="4110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -699,257 +197,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@7d373bcf]" started-at="2026-07-08T10:01:36 IST" name="teardown" finished-at="2026-07-08T10:01:37 IST" duration-ms="479" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@5aa0dbf4]" started-at="2026-07-08T12:34:31 IST" name="teardown" finished-at="2026-07-08T12:34:31 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Testcases.LoginTest -->
-      <class name="Testcases.paymentcheck">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:36 IST" name="setup" finished-at="2026-07-08T10:02:49 IST" duration-ms="13040" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
-at Base_login.Base.setup(Base.java:50)
-at jdk.internal.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:49 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:02:49 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin156@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
-at Base_login.Base.setup(Base.java:50)
-at jdk.internal.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:49 IST" name="teardown" finished-at="2026-07-08T10:02:49 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:49 IST" name="setup" finished-at="2026-07-08T10:02:49 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:49 IST" name="verifylogin" data-provider="LoginData" finished-at="2026-07-08T10:02:49 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ynitin159@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Quantum@8726]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: MicrosoftEdge=150.0.4078.48)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [01a0748f164637347e726770acd42e5a, get {url=https://automationexercise.com/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 150.0.4078.48, fedcm:accounts: true, goog:processID: 31040, ms:edgeOptions: {debuggerAddress: localhost:58560}, msedge: {msedgedriverVersion: 150.0.4078.48 (6362dfa84aa4..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58560/devtoo..., se:cdpVersion: 150.0.4078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a0748f164637347e726770acd42e5a
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
-at Base_login.Base.setup(Base.java:50)
-at jdk.internal.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentcheck@5dda6f9]" started-at="2026-07-08T10:02:49 IST" name="teardown" finished-at="2026-07-08T10:02:49 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.paymentcheck -->
     </test> <!-- Test4.3(Edge Execution) -->
   </suite> <!-- Suite4 -->
 </testng-results>

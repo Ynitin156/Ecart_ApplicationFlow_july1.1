@@ -11,6 +11,8 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="Testcases.LoginTest"/>
+      <class name="Testcases.Productcheck"/>
+      <class name="Testcases.paymentcheck"/>
     </classes>
   </test> <!-- Test4.2 -->
 
