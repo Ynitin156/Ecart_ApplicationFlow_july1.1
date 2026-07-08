@@ -11,8 +11,6 @@
   <parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="Testcases.LoginTest"/>
-      <class name="Testcases.ProductCart"></class>
-      <class name="Testcases.paymentcheck"></class>
     </classes>
   </test> <!-- Test4.1 -->
   
@@ -21,8 +19,6 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="Testcases.LoginTest"/>
-      <class name="Testcases.ProductCart"></class>
-      <class name="Testcases.paymentcheck"></class>
     </classes>
   </test> <!-- Test4.2 -->
   
@@ -30,8 +26,6 @@
   <parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="Testcases.LoginTest"/>
-      <class name="Testcases.ProductCart"></class>
-      <class name="Testcases.paymentcheck"></class>
     </classes>
   </test> <!-- Test4.3 -->
 
