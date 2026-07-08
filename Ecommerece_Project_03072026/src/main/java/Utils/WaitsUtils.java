@@ -19,7 +19,7 @@ public class WaitsUtils
 	public WaitsUtils(WebDriver driver) 
 	{
 		this.driver = driver;
-		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 	}
 
 	public WebElement waitforVisibility(By locator)
