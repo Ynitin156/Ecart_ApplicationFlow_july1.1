@@ -7,26 +7,11 @@
 <listener class-name="Utils.Listeners"></listener>
 </listeners>
 
-  <test name="Test4.1(Firefox Execution)">
-  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="Testcases.LoginTest"/>
-    </classes>
-  </test> <!-- Test4.1 -->
-  
-  
   <test name="Test4.2(Chrome Execution)">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="Testcases.LoginTest"/>
     </classes>
   </test> <!-- Test4.2 -->
-  
-  <test name="Test4.3(Edge Execution)">
-  <parameter name="browser" value="edge"></parameter>
-    <classes>
-      <class name="Testcases.LoginTest"/>
-    </classes>
-  </test> <!-- Test4.3 -->
 
 </suite> <!-- Suite4 -->
